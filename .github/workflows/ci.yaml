@@ -1,8 +1,6 @@
 name: TEST
 on:
   pull_request_target:
-    types:
-      - ready_for_review
     paths:
       - 'docs/**'
 
